@@ -6,7 +6,7 @@ Datasets used: The data used in our research work was taken from [1] where phase
 
 ## Recommended System Requirements to train model
 
-A good CPU and a GPU with atleast 8GB memory Atleast 8GB of RAM Active internet connection so that keras can download vgg16/inceptionV3 model weights.
+A good CPU and a GPU with atleast 8GB memory Atleast 8GB of RAM Active internet connection so that keras can download RESNET50 model weights.
 
 ## Required libraries for Python
 
