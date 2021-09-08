@@ -54,7 +54,7 @@ vxs = np.reshape(vxs, (-1,256,256,1), 'C')
 
 
 #Pre-trained ResNet50 model
-base_model = ResNet50(weights= None, include_top=False, input_shape= (256, 256, 1))
+base_model = ResNet50(weights= 'imagenet', include_top=False, input_shape= (256, 256, 1))
 
 x = base_model.output
 x = GlobalAveragePooling2D()(base_model.output)
